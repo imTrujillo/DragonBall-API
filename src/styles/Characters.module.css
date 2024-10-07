@@ -1,0 +1,60 @@
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    gap: 20px;
+    width: 100%;
+}
+
+.container{
+    flex: 750;
+    margin: 1rem;
+    padding: 20px;
+}
+
+.container2{
+    flex: 1;
+    max-width: 250px;
+    padding: 20px;
+    border-left: 10px solid rosybrown;
+}
+
+.container_card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.active{
+    color: red;
+}
+
+.inactive{
+    color: rgb(255, 255, 255);
+}
+
+.card{
+    background: linear-gradient(rgb(255, 34, 255), rgb(255, 99, 208));
+    padding: 1rem;
+    margin: 0 auto;
+    border-radius: 100%;
+    width: 200px;
+    height: auto;
+}
+
+.card2{
+    background-color:  rgb(255, 99, 208);
+    border-radius: 10%;
+}
+
+.card img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    line-height: 10px;
+}
+
+button{
+    background-color: rgba(255, 255, 255, 0) !important;
+}
